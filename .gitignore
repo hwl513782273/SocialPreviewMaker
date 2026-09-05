@@ -1,0 +1,15 @@
+# Build artifacts
+build/
+
+# Packaged DMG releases (shipped via GitHub Releases)
+*.dmg
+
+# Verification / test renders
+v[0-9]*.png
+v[0-9]*-*.png
+
+# macOS
+.DS_Store
+
+# Compiled app bundle (rebuilt from source)
+SocialPreviewMaker.app/
